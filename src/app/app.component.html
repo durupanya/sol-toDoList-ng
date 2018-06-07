@@ -1,0 +1,59 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Solvoyo TodoList</h5>
+  <div class="dropdown">
+      <select id="slctBox" class="form-control" onchange="filterSH.filterFnc(this);">
+              <option value="-1">Sıralama</option>
+          <option value="0">Yapılanlar</option>
+          <option value="1">Bekleyenler</option>
+          <option value="3">Tümü</option>
+      </select>
+  </div>
+</div>
+
+
+
+<!-- Begin page content -->
+<main id="fullSiteWrapper" role="main" class="container">
+  <div class="contentWrapper">
+      <h1>Yapılacaklar Listesi</h1>
+      <ul class="list-group">
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Cras justo odio</label>
+              </div>
+          </li>
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2">
+                  <label class="custom-control-label" for="customCheck1">Dapibus ac facilisis in</label>
+              </div>
+          </li>
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck3">
+                  <label class="custom-control-label" for="customCheck1">Morbi leo risus</label>
+              </div>
+          </li>
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck4">
+                  <label class="custom-control-label" for="customCheck1">Porta ac consectetur ac</label>
+              </div>
+          </li>
+          <li class="list-group-item">
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck5">
+                  <label class="custom-control-label" for="customCheck1">Vestibulum at eros</label>
+              </div>
+          </li>
+      </ul>
+
+      <div class="alert alert-warning mt-3" role="alert">
+          Bitirmiş olduğunuz işler için her bir maddenin üzerine tıklayınız.
+      </div>
+  </div>
+</main>
+<!-- /.container -->
+
